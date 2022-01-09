@@ -14,6 +14,7 @@
 
  <!-- Page content -->
  <div class="main">
+   <img src="../car.png"></img>
   <h1>This is a new heading</h1>
   <p>This is a new paragraph.</p>
  </div>
