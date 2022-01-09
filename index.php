@@ -4,9 +4,19 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Side navigation -->
+ <div class="sidenav">
+   <a href="#">About</a>
+   <a href="#">Services</a>
+   <a href="#">Clients</a>
+   <a href="#">Contact</a>
+ </div>
 
-<h1>This is a new heading</h1>
-<p>This is a new paragraph.</p>
+ <!-- Page content -->
+ <div class="main">
+  <h1>This is a new heading</h1>
+  <p>This is a new paragraph.</p>
+ </div>
 
 </body>
 </html>
