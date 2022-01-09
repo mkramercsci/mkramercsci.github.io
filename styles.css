@@ -1,6 +1,6 @@
-* {
-  background-color: black;
+body {
   color: white;
+  background-color: black;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
  left: 0;
  background-color: #111; /* Black */
  overflow-x: hidden; /* Disable horizontal scroll */
- padding-top: 20px;
+ padding-top: 400px;
 }
 
 /* The navigation menu links */
@@ -25,13 +25,15 @@ h1 {
  padding: 6px 8px 6px 16px;
  text-decoration: none;
  font-size: 25px;
+ font-family: "Courier New";
+ font-weight: bold;
  color: #818181;
  display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
- color: #f1f1f1;
+ color: #9d0ad1;
 }
 
 /* Style page content */
