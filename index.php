@@ -6,8 +6,8 @@
 <body>
   <!-- Side navigation -->
  <div class="sidenav">
-   <img src="images\car.png"></img>
-   <a href="#">About</a>
+   <a href="index.php"><img src="images\car.png"></img></a>
+   <a href="about.php">About</a>
    <a href="#">Services</a>
    <a href="#">Clients</a>
    <a href="#">Contact</a>
@@ -15,8 +15,8 @@
 
  <!-- Page content -->
  <div class="main">
-  <h1>This is a new heading</h1>
-  <p>This is a new paragraph.</p>
+  <h1>Portfolio</h1>
+  <p>This is the homepage.</p>
  </div>
 
 </body>
