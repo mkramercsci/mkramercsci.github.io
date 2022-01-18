@@ -16,7 +16,7 @@
       <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
       <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
 
-      <ul data-slides
+      <ul data-slides>
         <?php
         //change this to change the image directory
         $path = 'portfolio/be there for me';
@@ -26,7 +26,6 @@
 
           foreach ($files as $file) {
           if ($file !== "." && $file !== "..") {
-              echo "<div class=' col-6 col-sm-4 col-md-3 mt-3 mb-3'>";
 
               //set the first image as the only active slide
               if ($isFirst == true) {
@@ -39,7 +38,7 @@
                 echo "<li class='slide'>";
               }
               //replace image src to change image directory
-              echo "<img src='$path/$file' alt=$file/></li></div>";
+              echo "<img src='$path/$file' alt=$file/></li>";
             }
           }
         ?>
