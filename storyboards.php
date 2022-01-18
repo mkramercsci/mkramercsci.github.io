@@ -27,17 +27,16 @@
           foreach ($files as $file) {
           if ($file !== "." && $file !== "..") {
 
-              //set the first image as the only active slide
+              //the first image is the active slide
               if ($isFirst == true) {
                 echo "<li class='slide' data-active>";
                 $isFirst = false;
               }
-
-              //all images after the first are not active
+              //subsequent images are not active
               else {
                 echo "<li class='slide'>";
               }
-              //replace image src to change image directory
+
               echo "<img src='$path/$file' alt=$file/></li>";
             }
           }
