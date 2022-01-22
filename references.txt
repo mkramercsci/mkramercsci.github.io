@@ -1,0 +1,9 @@
+looping php image displayer
+https://www.thecsetech.com/2021/01/how-to-display-all-images-from-folder-using-php.html
+
+image carousel
+https://www.youtube.com/watch?v=9HcxHDS2w1s
+
+sidebar
+https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+

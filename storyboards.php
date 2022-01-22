@@ -13,8 +13,8 @@
   <p>The storyboard projects page.</p>
   <section aria-label="Storyboards">
     <div class="carousel" data-carousel>
-      <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-      <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+      <button class="carousel-button prev" data-carousel-button="prev"><</button>
+      <button class="carousel-button next" data-carousel-button="next">></button>
 
       <ul data-slides>
         <?php
