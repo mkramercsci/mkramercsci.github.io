@@ -30,11 +30,9 @@ body {
 }
 
 .slide > img {
-    display: block;
-    max-width: 100vw;
-    max-height: 100vh;
-    object-fit: fill;
-    object-position: center;
+  object-fit: contain;
+  width: 920px;
+  height: auto;
 }
 
 .slide[data-active] {
@@ -55,20 +53,6 @@ body {
   padding: 0 .5rem;
   background-color: rgba(0, 0, 0, .2);
   max-width: 100%;
-
-  /*position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;*/
 }
 
 .carousel-button:hover,
