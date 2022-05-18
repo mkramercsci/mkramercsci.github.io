@@ -31,7 +31,7 @@ body {
 
 .slide > img {
   object-fit: contain;
-  width: 920px;
+  width: 480px;
   height: auto;
 }
 
@@ -66,10 +66,14 @@ body {
 }
 
 .carousel-button.prev {
+  position: absolute;
   left: 1rem;
 }
 
 .carousel-button.next {
+  position: absolute;
+  transform: translateY(135px);
+  transform: translateX(440px);
   right: 1rem;
 }
 /* icon */
