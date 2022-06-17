@@ -44,15 +44,14 @@ body {
   z-index: 2;
   background: none;
   border: none;
+  border-radius: 0%;
   font-size: 2rem;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%, -50%);
   color: rgba(255, 255, 255, .5);
   cursor: pointer;
-  padding: 0 .5rem;
+  padding: 10px;
   background-color: rgba(0, 0, 0, .2);
-  max-width: 100%;
 }
 
 .carousel-button:hover,
@@ -73,7 +72,7 @@ body {
 .carousel-button.next {
   position: absolute;
   transform: translateY(135px);
-  transform: translateX(440px);
+  transform: translateX(400px);
   right: 1rem;
 }
 /* icon */
