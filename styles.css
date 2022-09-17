@@ -2,14 +2,13 @@
   box-sizing: border-box;
 }
 
-/* icon */
+/* car icon */
 .sidenav img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 90%;
   height: auto;
-  align: center;
   opacity: 1;
 }
 
@@ -18,7 +17,7 @@
     opacity: .8;
   }
 
-/* The sidebar menu */
+/* sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
@@ -31,20 +30,20 @@
   padding-top: 20px;
 }
 
-  /* The navigation menu links */
+/* The navigation menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Courier New";
-    font-weight: bold;
-    color: #818181;
-    display: block;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Courier New";
+  font-weight: bold;
+  color: #818181;
+  display: block;
 }
 
-    /* When you mouse over the navigation links, change their color */
+/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-      color: #cf38ff;
+  color: #cf38ff;
 }
 
 /* Style page content */
@@ -64,47 +63,51 @@
     }
 }
 
+/* headers for all site pages */
 h1 {
   margin-left: 170px;
   font-family: "Courier New";
   border: 1px solid #fff;
 }
 
+/* dark gray for the content body */
 body {
   color: white;
   background-color: #191919;
   margin: 0;
 }
 
+/* the storyboard carousel position is hard-coded to deal with issues lining it up underneath the YT video (530 x 315 px) */
 .carousel {
   position: absolute;
 }
 
 .carousel > ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .slide {
   position: absolute;
   inset: 0;
-  opacity: 0;
+  opacity: 0; /* only the active slide should be visible */
   z-index: -1;
 }
 
 .slide > img {
   z-index: -1;
-    object-fit: contain;
-    margin-top: 10px;
-    width: 560px;
-    height: auto;
+  object-fit: contain;
+  margin-top: 10px;
+  width: 560px;
+  height: auto;
 }
 
 .slide[data-active] {
-    opacity: 1;
+  opacity: 1;  /* only the active slide should be visible */
 }
 
+/* center the carousel buttons vertically & horizontally */
 .buttons-container {
   display: flex;
   width: 560px;
@@ -113,6 +116,7 @@ body {
   align-items: center;
 }
 
+/* set the look of the carousel buttons */
 .carousel-button {
   background: none;
   border: none;
@@ -127,31 +131,41 @@ body {
 
 .carousel-button:hover,
 .carousel-button:focus {
-    color: white;
-    background-color: rgba(0, 0, 0, .3);
+  color: white;
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .carousel-button:focus {
-    outline: 1px solid black;
+  outline: 1px solid black;
 }
 
+/* content stays on the left, description on the right */
 .main {
   display: flex;
   flex-direction: row;
 }
 
-.storyboard-description-container {
-  border: 2px solid #000000;
-  height: 640px;
+/* scrollable text box for the storyboard description */
+.storyboard-description-container,
+.about-description-container {
+  border: 2px solid #fff;
   padding: 20px;
   overflow: auto;
+  height: 640px;   /* height of vid (315) + height of carousel (315) + margin (10) */
+}
+
+.about-container {
+  display: flex;
+  align-items: start;
 }
 
 .about-container > img {
-  width: 50%;
-  height: auto;
+    width: 576px;
+    height: auto;
+    object-fit: contain;
+    border: 2px solid #fff;
 }
 
 .about-description-container {
-
+  height: 576px; /* img height (576) - box padding (40) */
 }
