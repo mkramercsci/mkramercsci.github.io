@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-  <title>Hello, world!</title>
+  <title>Boilerplate</title>
   <link rel="stylesheet" href="styles.css">
 
   <meta charset="UTF-8" />
@@ -17,17 +17,7 @@
 
 <body>
 
-  <h1>Portfolio</h1>
-  <div class="work-links">
-    <ul>
-      <li><a href="storyboards.php">
-        Storyboards
-      </a></li>
-      <li><a href="character-design.php">
-        Character Design
-      </a></li>
-    </ul>
-  </div>
+  <h1>Boilerplate</h1>
 
 </body>
 

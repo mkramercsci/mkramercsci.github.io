@@ -14,7 +14,7 @@
 
 .sidenav img:hover,
 .sidenav img:focus {
-    opacity: .8;
+  filter: brightness(1.15);
   }
 
 /* sidebar menu */
@@ -168,4 +168,30 @@ body {
 
 .about-description-container {
   height: 576px; /* img height (576) - box padding (40) */
+}
+
+.char-design-container {
+  height: auto;
+  object-fit: contain;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.char-design-container > img {
+  width: 525px;
+  height: auto;
+}
+
+/* this image needs to be hardcoded for resize bc it is much larger than the others */
+.large-turnaround > img {
+  width: 525px;
+  height: auto;
+  object-fit: contain;
+  display: inline;
+}
+
+.work-links {
+  margin-left: 160px;
 }

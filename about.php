@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="styles.css">
  <h1>About</h1>
 <div class="main">
- <div class="about-container"><img src="portfolio\about\me.png"></img>
+ <div class="about-container"><img src="images\about\me.png"></img>
 		<div class="about-description-container"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Senectus et netus et malesuada fames. In arcu cursus euismod quis viverra nibh. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Praesent tristique magna sit amet. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. Massa vitae tortor condimentum lacinia quis vel eros donec. Sit amet justo donec enim diam.</p>
 
         <p>Auctor elit sed vulputate mi sit amet mauris commodo. Leo integer malesuada nunc vel risus commodo. Cursus sit amet dictum sit amet justo donec. Et netus et malesuada fames. Tincidunt ornare massa eget egestas purus viverra. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Duis convallis convallis tellus id interdum velit laoreet. In nibh mauris cursus mattis molestie. Morbi non arcu risus quis varius quam quisque id diam. Vel eros donec ac odio tempor orci dapibus ultrices in. Dictumst quisque sagittis purus sit amet. Semper risus in hendrerit gravida rutrum quisque non tellus orci.</p>
