@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-  <title>Hello, world!</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 
   <meta charset="UTF-8" />
@@ -27,6 +27,7 @@
         Character Design
       </a></li>
     </ul>
+
   </div>
 
 </body>
