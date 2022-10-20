@@ -16,3 +16,14 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
+
+function transformScroll(event) {
+  if (!event.deltaY) {
+    return;
+  }
+
+  event.currentTarget.scrollLeft += event.deltaY;
+}
+
+var element = document.scrollingElement || document.documentElement;
+element.addEventListener("wheel", transformScroll);

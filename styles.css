@@ -77,8 +77,12 @@ body {
   margin: 0;
 }
 
+.work-links {
+  margin-left: 160px;
+}
+
 /* the storyboard carousel position is hard-coded to deal with issues lining it up underneath the YT video (530 x 315 px) */
-.carousel {
+  .carousel {
   position: absolute;
 }
 
@@ -170,7 +174,7 @@ body {
   height: 576px; /* img height (576) - box padding (40) */
 }
 
-.char-design-container {
+.turnaround-container {
   height: auto;
   object-fit: contain;
   justify-content: center;
@@ -179,19 +183,24 @@ body {
   flex-wrap: wrap;
 }
 
-.char-design-container > img {
+.turnaround-container > img {
   width: 525px;
   height: auto;
 }
 
-/* this image needs to be hardcoded for resize bc it is much larger than the others */
-.large-turnaround > img {
-  width: 525px;
-  height: auto;
-  object-fit: contain;
-  display: inline;
-}
-
-.work-links {
+.character-art-container {
   margin-left: 160px;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: auto;
+}
+
+.character-art-container > img {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    object-fit: contain;
+    margin-left: 10px;
+    margin-right: 10px;
 }

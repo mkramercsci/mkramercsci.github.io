@@ -18,3 +18,5 @@ https://www.internetingishard.com/html-and-css/flexbox/
 interesting design for a horizontal scrolling gallery
 https://daltonmuniz.carbonmade.com/
 
+javascript turn vertical scroll into horizontal 
+https://codepen.io/guidobouman/pen/LYpPawd

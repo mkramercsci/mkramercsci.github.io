@@ -23,7 +23,7 @@
               <ul data-slides>
                 <?php
                 //change this to change the image directory
-                $path = 'images/be there for me';
+                $path = 'images/storyboards/be there for me';
                   $files = scandir($path);
                   $isFirst = true;  //set the first image as the active slide
                   foreach ($files as $file) {

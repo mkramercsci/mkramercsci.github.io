@@ -9,10 +9,10 @@
 
 <body>
 	
-<h1>Character Design</h1>
+<h1>Turnarounds</h1>
 
 <div class="main">
-  <div class="char-design-container">
+  <div class="turnaround-container">
     <?php
       //change this to change the image directory
       $path = 'images/turnarounds';
@@ -24,7 +24,7 @@
         }
 
         //this image needs to be hardcoded for resize bc it is much larger than the others
-        echo "<div class='large-turnaround'><img src='portfolio/d-turnaround.gif'/></div></div>";
+        //echo "<div class='large-turnaround'><img src='portfolio/images/d-turnaround.gif'/></div></div>";
     ?>
 </div>
 

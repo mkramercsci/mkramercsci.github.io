@@ -23,9 +23,13 @@
       <li><a href="storyboards.php">
         Storyboards
       </a></li>
-      <li><a href="character-design.php">
-        Character Design
+      <li><a href="turnaround.php">
+        Character Turnarounds
       </a></li>
+      <li><a href="character-art.php">
+        Character Art
+      </a></li>
+
     </ul>
 
   </div>
